@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h2> Tag Form </h2>
+
+    <form action="#" method="get"></form>
+
+    <form action="#" method="post" enctype="multipart/form-data" >
+
+        <fieldset>
+            <legend>ຟອມລົງທະບຽນ</legend>
+            <label for="user_name"> ຊື່ຜູ້ໃຊ້:</label>
+            <input type="text" id="user_name" name="user_name" placeholder="ປ້ອນຊື່ຜູ້ໃຊ້" > <br>
+
+            <label for="password"> ລະຫັດຜ່ານ:</label>
+            <input type="password" id="password" name="password" placeholder="ປ້ອນລະຫັດຜ່ານ"> <br>
+            <label for="bd">ວັນເກີດ:</label> 
+            <input type="date" name="bd" id="bd">
+            <br>
+
+            <label>ເພດ:</label>
+            <input type="radio" name="gender" value="man" id="man">
+            <label for="man">ຊາຍ</label>
+            <input type="radio" name="gender" value="woman" id="woman">
+            <label for="woman">ຍິງ</label>
+            <input type="radio" name="gender" value="no" id="no">
+            <label for="no">ບໍ່ກຳນົດ</label> <br>
+
+            <label>ຄວາມສາມາດ 1:</label>
+            <input type="checkbox" name="html" value="ture" id="ch-html"> <label for="ch-html">HTML ,</label>
+            <input type="checkbox" name="CSS" value="ture" id="ch-css"> <label for="ch-css">CSS ,</label> 
+            <input type="checkbox" name="JS" value="ture" id="ch-js"> <label for="ch-js">JS ,</label> 
+            <input type="checkbox" name="PHP" value="ture" id="ch-php"> <label for="ch-php">PHP ,</label> <br>
+            
+            <label for="skill2">ຄວາມສາມາດ 2:</label>
+            <select name="skill2" id="skill2">
+                <option value="java"> java </option>
+                <option value="dart"> dart </option>
+                <option value="c++"> c++ </option>
+            </select>
+            <br>
+            <label for="address">ທີ່ຢູ່:</label><br>
+            <textarea rows="4" cols="30" id="address"></textarea> <br>
+
+            <label for="img">ຮູບພາບ:</label><br>
+            <input type="file" name="fileupload" id="img" >
+            <br><br>
+            <!-- <input type="submit" value="ລົງທະບຽນ">  -->
+
+            <button type="submit">ລົງທະບຽນ</button>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
