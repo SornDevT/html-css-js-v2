@@ -4,27 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        .ab{
+            font-size: 20px;
+            color: red;
+        }
+
+        h2{
+            color: blue;
+        }
+
+        p{
+            font-size: 18px;
+            font-weight: bolder;
+            border-style:double ;
+            border-color: brown;
+            border-width: 5px;
+            padding: 20px;
+            border-radius: 20px 10px 2px 0px;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="css/app.css" >
+
 </head>
 <body>
 
     <h2> Tag Form </h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro autem laboriosam omnis! Dicta, cumque cupiditate sed et tempora quidem repellendus officia culpa! Laudantium adipisci, eligendi suscipit aperiam cum id doloremque.
+    </p>
 
     <form action="#" method="get"></form>
 
     <form action="#" method="post" enctype="multipart/form-data" >
 
         <fieldset>
-            <legend>ຟອມລົງທະບຽນ</legend>
-            <label for="user_name"> ຊື່ຜູ້ໃຊ້:</label>
-            <input type="text" id="user_name" name="user_name" placeholder="ປ້ອນຊື່ຜູ້ໃຊ້" > <br>
+            <legend class="home">ຟອມລົງທະບຽນ</legend>
+            <label for="user_name" class="ab" > ຊື່ຜູ້ໃຊ້:</label>
+            <input type="text" id="user_name"  name="user_name" placeholder="ປ້ອນຊື່ຜູ້ໃຊ້" > <br>
 
-            <label for="password"> ລະຫັດຜ່ານ:</label>
+            <label for="password" class="text"> ລະຫັດຜ່ານ:</label>
             <input type="password" id="password" name="password" placeholder="ປ້ອນລະຫັດຜ່ານ"> <br>
             <label for="bd">ວັນເກີດ:</label> 
             <input type="date" name="bd" id="bd">
             <br>
 
-            <label>ເພດ:</label>
+            <label style=" font-size: 18px; font-weight: 600; color: blue; " >ເພດ:</label>
             <input type="radio" name="gender" value="man" id="man">
             <label for="man">ຊາຍ</label>
             <input type="radio" name="gender" value="woman" id="woman">
@@ -38,7 +65,7 @@
             <input type="checkbox" name="JS" value="ture" id="ch-js"> <label for="ch-js">JS ,</label> 
             <input type="checkbox" name="PHP" value="ture" id="ch-php"> <label for="ch-php">PHP ,</label> <br>
             
-            <label for="skill2">ຄວາມສາມາດ 2:</label>
+            <label for="skill2" class="text" >ຄວາມສາມາດ 2:</label>
             <select name="skill2" id="skill2">
                 <option value="java"> java </option>
                 <option value="dart"> dart </option>
@@ -48,7 +75,7 @@
             <label for="address">ທີ່ຢູ່:</label><br>
             <textarea rows="4" cols="30" id="address"></textarea> <br>
 
-            <label for="img">ຮູບພາບ:</label><br>
+            <label for="img" class="ab">ຮູບພາບ:</label><br>
             <input type="file" name="fileupload" id="img" >
             <br><br>
             <!-- <input type="submit" value="ລົງທະບຽນ">  -->
@@ -58,6 +85,10 @@
         </fieldset>
 
     </form>
+
+    <p>
+        aaaaa
+    </p>
     
 </body>
 </html>

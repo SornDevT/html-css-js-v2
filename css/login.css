@@ -1,0 +1,84 @@
+
+a{
+    text-decoration: none;
+}
+
+body{
+    /* background-color: gainsboro; */
+    background-image: url('/image/wallpaper.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    font-family: 'Phetsarath OT';
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+   /*  border: 1px solid #19cf31;
+    width: 350px; */
+}
+
+.form-login{
+    background-color: rgb(173, 34, 19);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    width: 350px;
+    /* height: 400px; */
+}
+
+.img{
+    object-position:center;
+    object-fit:cover;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(221, 8, 8);
+    border-radius: 100px;
+}
+
+.form-input{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 2px #c5c4c4 solid;
+}
+
+.text-remember-me{
+    position: relative;
+    height: 30px;
+}
+
+.text-right{
+    position: absolute;
+    text-align: right;
+    right: 20px;
+}
+
+.text-left{
+    position: absolute;
+    text-align: left;
+    left: 20px;
+}
+
+.button-login{
+    border: 0px;
+    width: 320px;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Phetsarath OT';
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button-login:hover{
+    background-color: aqua;
+    color: black;
+}
