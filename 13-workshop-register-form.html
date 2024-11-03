@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Register</title>
+    <link rel="stylesheet" href="css/register.css" >
+</head>
+<body>
+
+
+    <div class="main">
+        <div class="form-register">
+            <h3 class="text-center">
+                ຟອມສະມັກສະມາຊິກ
+            </h3>
+            <input type="text" name="name" class="form-input" placeholder="ຊື່">
+            <input type="text" name="last_name" class="form-input" placeholder="ນາມສະກຸນ">
+            
+            <div class="aling-left">
+                <label for="gender">ເພດ:</label>
+                <input type="radio" name="gender" value="men" checked id="men" > <label for="men">ຊາຍ</label>
+                <input type="radio" name="gender" value="women"  id="women" > <label for="women">ຍິງ</label> 
+            </div>
+            <div class="aling-left">
+                <label for="date" > ວັນເດືອນປີເກີດ: </label>
+                <input type="date" name="date" class="form-input">
+            </div>
+            <div class="aling-left">
+                <label for="skill">ຄວາມສາມາດ:</label>
+                <select name="skill" class="form-input" id="skill">
+                    <option value=""> == ເລືອກ ==  </option>
+                    <option value="html"> html </option>
+                    <option value="css"> css </option>
+                    <option value="js"> js </option>
+                    <option> ທົດຊອບພາສາລາວ </option>
+                </select>
+            </div>
+            
+                <input type="text" name="user_name" class="form-input" placeholder="ຊື່ຜູ້ໃຊ້"> <br>
+                <input type="password" name="user_password" class="form-input" placeholder="ລະຫັດຜ່ານ"> <br>
+                <input type="password" name="user_password2" class="form-input" placeholder="ຍືນຍັນລະຫັດຜ່ານ"> <br>
+           <div class="aling-left">
+            <label for="address">ທີ່ຢູ່:</label> <br>
+            <textarea name="address" id="address" class="form-input" cols="30" rows="4" ></textarea>
+           </div>
+           <input type="submit" value="ລົງທະບຽນ" class="button-register" ><br>
+           <div class="text"> ມີບັນຊີແລ້ວ! <a href="12-workshop-login-form.html">ເຂົ້າສູ່ລະບົບ</a> </div>
+        </div>
+    </div>
+    
+</body>
+</html>

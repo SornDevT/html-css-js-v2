@@ -1,0 +1,86 @@
+body{font-size: 15px;padding: 0;margin: 0;font-family: 'sans-serif','Phetsarath OT';}
+
+/* header */
+
+header{
+    min-height: 60px;
+    background-color: #FFFF;
+    padding: 10px 135px 10px 135px;
+    border-bottom: 3px solid #d8d8d8;
+}
+
+article{
+    text-align: center;
+    
+}
+.tbcenter{
+    display: flex;
+    justify-content: center;
+}
+.branding{
+    padding-left: 30px;
+    float: left;
+    color: #000;
+}
+
+.logo{
+    float: left;
+}
+
+header li {
+    display: inline;
+    padding: 0px 12px;
+}
+
+header, nav, ul, li, a {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}
+
+header nav ul li a:hover {
+    color: rgb(243, 189, 11);
+}
+
+/* end header */
+
+.banner{
+    width: 100%;
+}
+
+table {
+    width: 55%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #9c9c9c;
+}
+
+tr:nth-child(even){
+    background-color: #e6e4e4;
+}
+ tr:first-child{
+    background-color: rgb(255, 155, 155);
+ }
+
+ footer{
+    background-color: rgb(104, 104, 253);
+    height: 80px;
+    padding: 10px 135px 10px 135px;
+ }
+
+ .copyright{
+    color: white;
+    float: left;
+ }
+
+ .address{
+    color: white;
+    float: right;
+ }
+
+ .text-logo{
+    font-weight: bold;
+    font-size: 19px;
+ }
