@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> ການວົນລູບ Iterations (loop) </h2>
+
+
+    <div id="aa"></div>
+    <input type="text" id="number" >
+    <button onclick="ab()" >Caculate</button>
+    <script>
+
+        // while loop
+        // ແບບທີ່ 1
+        var money = 100;
+        var count = 1;
+
+        while(count <= 5){
+            money += 10;
+            // console.log(money);
+            // console.log('count:'+count);
+            count++;
+        }
+
+        // ----------------------------
+        function ab(){
+            var money = 100;
+            var count = document.getElementById("number").value;
+            // console.log(count);
+        while(count <= 5){
+            money += 10;
+            console.log(money);
+            console.log('count:'+count);
+            count++;
+        }
+
+           
+        }
+
+        //------------------------
+
+        // ແບບ2
+
+        var keyboard = 'n';
+
+        while(true){
+            // console.log('test');
+            if(keyboard=='n'){
+                break;
+            }
+        }
+
+        // ແບບທີ່ 3 for loop
+        console.log('-----------');
+        var mk = 100;
+        for (let i = 0; i < 100; i++) {
+            mk += 10;
+        //    console.log(mk);
+            
+        }
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Javascript Event </h2>
+    
+    <button onclick="myFunction()">Go!</button>
+
+    <p onmouseover="over()" onmouseout="cl()">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea, in vero velit nihil saepe laborum corrupti eaque aperiam, nesciunt dolor eos consectetur magnam totam aliquid earum? Voluptas, deleniti quod!
+        
+    </p>
+
+    <span id="text"></span>
+
+    <script>
+
+        function myFunction(){
+
+            alert('Let Go!');
+        }
+
+        function over(){
+            document.getElementById('text').innerHTML="123456789"
+        }
+
+        function cl(){
+             document.getElementById('text').innerHTML=""
+        }
+
+    </script>
+
+</body>
+</html>
